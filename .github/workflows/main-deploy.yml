@@ -53,7 +53,7 @@ jobs:
         # cp script/*.sh workspace/
         # cp appsepec.yml workspace/
         cp build/libs/*.jar workspace/
-        cp workspace && zip -r integrated-work *
+        cd workspace && zip -r integrated-work *
         cd ../ && mkdir -p deploy
         mv workspace/integrated-work.zip deploy/TricountSonic.zip
       shell: bash
