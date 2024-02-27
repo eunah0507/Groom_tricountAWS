@@ -12,7 +12,7 @@ on:
     branches: [ "main" ]
 
 env:
-  S3_BUKET_NAME: "tricount-buket"
+  S3_BUCKET_NAME: tricount-buket
   CODE_DEPLOY_NAME: tricount
   CODE_DEPLOY_GROUP_NAME: tricount-deploy-group
 
