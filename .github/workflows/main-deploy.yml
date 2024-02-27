@@ -52,7 +52,7 @@ jobs:
     - name: Make Zip
       run: |
         mkdir -p workspace
-        cp script/*.sh workspace/
+        cp scripts/*.sh workspace/
         cp appsepec.yml workspace/
         cp build/libs/*.jar workspace/
         cd workspace && zip -r integrated-work *
